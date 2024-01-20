@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,71 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Agrega esto a tu archivo de estilos */
+.hover-zoom {
+  transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.hover-zoom:not(:hover) {
+  transform: scale(1);
+}
+
+.bg-green-800 {
+  background-color: #def5e2;
+  /* Cambia esto al color que desees */
+  /* Agrega cualquier otro estilo que desees */
+}
+
+/* Estilos adicionales para los títulos */
+.title-highlight {
+  font-weight: bold;
+  font-size: 1.2em;
+  /* Ajusta el tamaño según tus preferencias */
+}
+
+.subtitle-highlight {
+  font-weight: bold;
+  font-size: 1.1em;
+  /* Ajusta el tamaño según tus preferencias */
+  /* Agrega cualquier otro estilo que desees */
+}
+
+.has-opacity {
+
+  /* Ajusta el valor de opacidad según tus preferencias */
+}
+
+.id-container {
+  background-color: #c9c9c933;
+  opacity: 0.9;
+  margin-bottom: 10px;
+  /*Colordefondoparaelcontenedor*/
+  border-radius: 8px;
+  /*Bordesredondos*/
+  padding: 5px 30px;
+  /*Ajustaelrellenosegúntuspreferencias*/
+  display: inline-block;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.dark-background {
+  background-color: #b2afaf1b;
+  /* Cambia el color de fondo a uno oscuro según tus preferencias */
+  color: #fff;
+  /* Cambia el color del texto a blanco o algún color claro */
+  border-radius: 8px;
+  /* Bordes redondos */
+  padding: 8px;
+  /* Ajusta el relleno según tus preferencias */
+  margin: 4px 0;
+  /* Ajusta el margen según tus preferencias */
 }
