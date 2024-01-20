@@ -7,10 +7,10 @@ Este proyecto busca la gestión de tareas de manera independiente, promoviendo e
 - Bulma Css framework
 - Toastify
 
-#FrontEnd
+# FrontEnd
 ![image](https://github.com/velascofelipe/react-rossmanager/assets/56605566/728914d6-24ad-4e29-9a39-f8217941e2ed)
 
-#BackEnd
+# BackEnd
 
 ![image](https://github.com/velascofelipe/react-rossmanager/assets/56605566/fedb5996-b63b-448b-8d4b-e491453222fd)
 
