@@ -1,3 +1,27 @@
+# Proyecto de gestión de tareas RossManager
+Este proyecto busca la gestión de tareas de manera independiente, promoviendo escalamiento y flexibilidad de la aplicación para futuras iteraciones.
+
+# Componentes
+- ReactJs
+- Springboot & Gradle
+- Bulma Css framework
+- Toastify
+
+# FrontEnd
+![image](https://github.com/velascofelipe/react-rossmanager/assets/56605566/728914d6-24ad-4e29-9a39-f8217941e2ed)
+
+# BackEnd
+
+![image](https://github.com/velascofelipe/react-rossmanager/assets/56605566/fedb5996-b63b-448b-8d4b-e491453222fd)
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
